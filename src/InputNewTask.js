@@ -22,11 +22,12 @@ constructor(props){
 		"complete": false
 		
 	})
-	return (
-		<TaskItem id = {2} task = {this.state.task} checked = {false} />
-	)
- 	console.table(Data)
+	console.table(Data)
 	alert(this.state.task)
+	return (
+	<TaskItem />
+	)
+ 
 	
 
   }
@@ -38,7 +39,7 @@ constructor(props){
 		<form>
 		  <input type="text" name= "newTask" value = {this.state.task} onChange={this.handle.bind(this)} />
 		  <button type="submit" onClick= {this.creatNewTask}> add new Task </button>
-		  
+		 
 		</form>
 		</div>
 	  )
