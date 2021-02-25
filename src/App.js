@@ -6,8 +6,9 @@ import InputNewTask from './InputNewTask';
 function App() {
   return (
 	      <>
+        <InputNewTask />
       		<Tasklist />
-      		<InputNewTask />
+      		
   			</>    				
     );
 }

@@ -7,7 +7,7 @@ let Tasklist = () =>{
     return (
      <>
         {data.map((todolist, i) => (
-          <TaskItem id = {todolist.id} task = {todolist.task} complete = {todolist.complete} />
+          <TaskItem id = {todolist.id} task = {todolist.task} checked = {todolist.complete} />
         ))}
       </>
     );
